@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" text-white bg-[#262626] ">
+    <div className=" text-gray-200 bg-[#262626] ">
       <div className="flex justify-between items-center max-w-[97%] h-full px-2 2xl:px-16">
         {/* <Link href="/"> */}
         <a
@@ -22,7 +22,7 @@ const Navbar = () => {
           onClick={(event) => {
             event.preventDefault();
           }}
-          className=" md:ml-10 md:mt-5"
+          className=" md:ml-10 md:mt-"
         >
           <img
             src={NavLogo}
@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <div>
           <ul className="flex text-10px md:text-[18px] font-semibold md:mr-20">
-            <li className="md:ml-10 hover:border-b">
+            <li className="ml-5 sm:ml-10 hover:border-b">
               <a
                 href="/"
                 onClick={(event) => {
@@ -46,7 +46,7 @@ const Navbar = () => {
                 Home
               </a>
             </li>
-            <li className="ml-10 hover:border-b ">
+            <li className="ml-5 sm:ml-10 hover:border-b ">
               <a
                 href="/"
                 onClick={(event) => {
@@ -54,6 +54,18 @@ const Navbar = () => {
                 }}
               >
                 Tags
+              </a>
+            </li>
+            {/* <li className="ml-10 hover:bg-[#262626] bg-gray-300 p-1 rounded-xl text-[#262626] hover:text-white hover:border-white border-y-2 "> */}
+            <li className=" ml-5 sm:ml-10 bg-gray-300 hover:bg-gray-400 p-1 rounded-xl text-[#262626]">
+              <a
+                href="/write"
+                onClick={(event) => {
+                  event.preventDefault();
+                }}
+                // className="m-2"
+              >
+                Write
               </a>
             </li>
           </ul>
