@@ -46,7 +46,7 @@ const Write = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-white h-full sm:p-10 ">
+      <div className="bg-white h-full sm:p-10 sm:pb-0 pb-10 ">
         <div className="sm:flex sm:gap-3 pt-10 justify-center ">
           <div className="overflow-hidden">
             <h2 className="text-[20px] font-bold border-x-2 border-t-2 border-gray-600 ">
@@ -106,12 +106,12 @@ const Write = () => {
           </div>
         </div>
 
-        <div className="sm:flex sm:gap-3 pt-10 justify-center ">
+        <div className="sm:flex sm:gap-3 pt-10 justify-center sm:pb-10">
           <div className=" border-gray-600 border-2 text-left">
             <h2 className="font-bold text-center text-[20px] border-b-2 border-gray-600 pt-0 ">
               Category (Tag)
             </h2>
-            <div className="px-5 py-5 sm:flex gap-3">
+            <div className="px-5 py-5 flex gap-3">
               <div>
                 <div className="cat">
                   <input
@@ -187,7 +187,7 @@ const Write = () => {
           </div>
 
           {/* Publish */}
-          <div className="border-gray-600 border-2 text-left">
+          <div className="border-gray-600 sm:mt-0 mt-10 border-2 text-left">
             <h2 className="text-[20px] font-bold text-center border-b-2 border-gray-600 pt-0">
               Publish
             </h2>
