@@ -1,3 +1,8 @@
+# Getting Started with the application
+This project is a frontend demonstration of a sample blog app given as an assignment. 
+The home pa
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
