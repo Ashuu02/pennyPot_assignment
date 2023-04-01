@@ -57,7 +57,7 @@ const Navbar = () => {
               </a>
             </li>
             {/* <li className="ml-10 hover:bg-[#262626] bg-gray-300 p-1 rounded-xl text-[#262626] hover:text-white hover:border-white border-y-2 "> */}
-            <li className=" ml-5 sm:ml-10 bg-gray-300 hover:bg-gray-400 p-1 rounded-xl text-[#262626]">
+            <li className=" ml-5 sm:ml-10 bg-gray-300 hover:bg-gray-400 p-1 rounded-full px-3 text-[#262626]">
               <a
                 href="/write"
                 onClick={(event) => {

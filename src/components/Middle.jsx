@@ -11,7 +11,7 @@ const Middle = () => {
           </p>
 
           <div className="w-full text-center m-auto items-center p-3 ">
-            <div className=" mt-10 md:px-[200px] text-left">
+            <div className=" mt-10 lg:px-[200px] text-left">
               <h2 className="font-bold  text-gray-700 text-[25px] sm:text-[35px] ">
                 Life Insurance: Securing Your Future
               </h2>
@@ -25,12 +25,12 @@ const Middle = () => {
                 security for your loved ones in the event of your untimely
                 demise.
               </p>
-              <button className=" rounded-full bg-[#464646] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
+              <button className=" rounded-full bg-[#464646] hover:bg-[#2f2f2f] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
                 Read Now
               </button>
             </div>
 
-            <div className=" mt-[160px] md:px-[200px] text-left">
+            <div className=" mt-[160px] lg:px-[200px] text-left">
               <h2 className="font-bold  text-gray-700 text-[25px] sm:text-[35px] ">
                 Mastering Your Finances: Expert Tips and Strategies to Achieve
                 Your Financial Goals
@@ -50,12 +50,12 @@ const Middle = () => {
                 starting to take control of your finances, this blog has
                 something for everyone.
               </p>
-              <button className=" rounded-full bg-[#464646] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
+              <button className=" rounded-full bg-[#464646] hover:bg-[#2f2f2f] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
                 Read Now
               </button>
             </div>
 
-            <div className=" mt-[160px] md:px-[200px] text-left">
+            <div className=" mt-[160px] lg:px-[200px] text-left">
               <h2 className="font-bold  text-gray-700 text-[25px] sm:text-[35px] ">
                 Maximizing Your Savings with Post Office Monthly Income Scheme
               </h2>
@@ -70,13 +70,13 @@ const Middle = () => {
                 rates and guaranteed returns, making it a popular choice among
                 conservative investors.
               </p>
-              <button className=" rounded-full bg-[#464646] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
+              <button className=" rounded-full bg-[#464646] hover:bg-[#2f2f2f] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
                 Read Now
               </button>
             </div>
 
             <div className=" mt-[160px] ">
-              <button className=" rounded-full bg-[#464646] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
+              <button className=" rounded-full bg-[#464646] hover:bg-[#2f2f2f] text-[#fbfbfb] px-8 py-2 md:mt-[60px] mt-7 text-base font-bold">
                 Load More
               </button>
             </div>
