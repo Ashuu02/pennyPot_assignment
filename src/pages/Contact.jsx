@@ -92,7 +92,7 @@ const Contact = () => {
                 type="button"
                 onClick={whatsapp}
                 // className="w-full p-4 bg-gradient-to-r from-[#00acb54a] to-[#40f0f8] hover:bg-[#40f0f8]  rounded-xl text-xl font-bold text-white mt-4"
-                className="w-full p-4 bg-gradient-to-r bg-[#a6a6a6] hover:bg-[#858484] text-[#262626]  rounded-xl text-xl font-bold text-white mt-4"
+                className="w-full p-4 bg-gradient-to-r bg-[#a6a6a6] hover:bg-[#858484] text-[#262626]  rounded-xl text-xl font-bold mt-4"
               >
                 Send Message
               </button>
