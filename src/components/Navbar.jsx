@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import NavLogo from "../img/insights-removebg.svg";
+// import NavLogo from "../img/insights.png";
 import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -15,21 +16,21 @@ const Navbar = () => {
 
   return (
     <div className=" text-gray-200 bg-[#262626] ">
-      <div className="flex justify-between items-center max-w-[97%] h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center max-w-[97%] px-2 2xl:px-16">
         {/* <Link href="/"> */}
         <a
           href="/"
           onClick={(event) => {
             event.preventDefault();
           }}
-          className=" md:ml-10 md:mt-"
+          className=" md:ml-10"
         >
           <img
             src={NavLogo}
             alt="/"
             // width="200"
             // height="200"
-            className="cursor-pointer w-[150px] h-[100px] md:w-[200px] md:h-[200px] text-white"
+            className="cursor-pointer w-[150px] h-[100px] md:w-[200px] md:h-[150px] text-white"
           />
         </a>
         {/* </Link> */}
@@ -37,14 +38,7 @@ const Navbar = () => {
         <div>
           <ul className="flex text-10px md:text-[18px] font-semibold md:mr-20">
             <li className="ml-5 sm:ml-10 hover:border-b">
-              <a
-                href="/"
-                onClick={(event) => {
-                  event.preventDefault();
-                }}
-              >
-                Home
-              </a>
+              <Link to={"/"}>Home</Link>
             </li>
             <li className="ml-5 sm:ml-10 hover:border-b ">
               <a
@@ -58,15 +52,7 @@ const Navbar = () => {
             </li>
             {/* <li className="ml-10 hover:bg-[#262626] bg-gray-300 p-1 rounded-xl text-[#262626] hover:text-white hover:border-white border-y-2 "> */}
             <li className=" ml-5 sm:ml-10 bg-gray-300 hover:bg-gray-400 p-1 rounded-full px-3 text-[#262626]">
-              <a
-                href="/write"
-                onClick={(event) => {
-                  event.preventDefault();
-                }}
-                // className="m-2"
-              >
-                Write
-              </a>
+            <Link to={"/write"}>Write</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}

@@ -1,6 +1,7 @@
 import React from "react";
 import footerImg from "../img/pennypot.png";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,11 @@ const Footer = () => {
           <div className="text-white">
             <h2 className="font-semibold text-base text-white">Company</h2>
             <div className="mt-7 text-gray-200 text-left">
-              <p className="py-2 sm:pt-0 pt-8 cursor-pointer hover:text-gray-400">Contact</p>
+              <p className="py-2 sm:pt-0 pt-8 cursor-pointer hover:text-gray-400">
+                <Link to={"/contact"}>
+                Contact
+                </Link>
+                </p>
             </div>
           </div>
           <div className="px-2">
